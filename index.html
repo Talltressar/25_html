@@ -1,109 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Snickers</title>
+    <title>Stikerz</title>
+    <link rel="icon" href="img/20.svg">
+    <link rel="stylesheet" href="CSS/index.css">
 </head>
-
 <body>
+    <header id="home" class="header">
+        <nav class="header-nav">
+            <div class="conteiner">
 
-    <header class="header">
-
-        <nav class="header__top-nav" style="background-color: black;">
-            <div class="header__top-nav-logo">
-                <img src="img/logo1.svg" width="210" alt="zen cottages logo">
-            </div>
+        <div class="header-nav-logo">stikerz</div>
+        <label class="burger-icon" for="burger-checkbox"></label>
+        <div class="header-nav-menu">
+            <a href="#home" class="header-nav-menu-item">Home</a>
+            <a href="#products"class="header-nav-menu-item">Products</a>
+            <a href="#contacts"class="header-nav-menu-item">Contacts</a>
+            <a href="cart.html"class="header-nav-menu-item">Cart</a>
+        </div>
+        </div>
         </nav>
-        <div class="header__banner">
+        <div class="header-banner">
+            <img src="img/fantasy-wallpaper-1366x768.jpg" alt="dragon">
+            <h1 class="header-banner-h1">Stikerz</h1>
+            <button class="header-banner-button">Shop now</button>
+        </div>
+    </header>
+<main>
+    <section class="main-products">
+        <h2 class="main-products-h2">Products</h2>
+        <div class="main-products-list">
+            <article class="product-card">
+                <img class="product-card-image" src="img/sfurniture.png" alt="furniture">
+                <h3 class="product-card-h3">Furniture</h3>
+                <p class="product-card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, ratione!</p>
+            <div class="product-card-buttons">
+                <button class="product-card-buttons-info button button-card">Info</button>
+                <button class="product-card-buttons-buy button button-card">Buy</button>
+            </div>
+            </article>
+            <article class="product-card">
+                <img class="product-card-image" src="img/shouse.png" alt="House">
+                <h3 class="product-card-h3">House</h3>
+                <p class="product-card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, ratione!</p>
+            <div class="product-card-buttons">
+                <button class="product-card-buttons-info button button-card">Info</button>
+                <button class="product-card-buttons-buy button button-card">Buy</button>
+            </div>
+            </article>
+            <article class="product-card">
+                <img class="product-card-image" src="img/sladder.png" alt="ladder">
+                <h3 class="product-card-h3">Ladder</h3>
+                <p class="product-card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, ratione!</p>
+            <div class="product-card-buttons">
+                <button class="product-card-buttons-info button button-card">Info</button>
+                <button class="product-card-buttons-buy button button-card">Buy</button>
+            </div>
+            </article>
 
         </div>
+    </section>
+</main>
+<footer class="footer">
+    <form action="" class="footer-contacts">
+        <input type="text" name="name" placeholder="">
+        <input type="text">
+        <input type="text">
 
-    </header>
-    <main>
-        <!-- Irina Venzheha -->
-        <section class="Block_one">
-            <div class="logo__twenty">
-                <img src="img/20.svg" width="75" alt="20 logo">
-            </div>
-            <div class="text_20years">
-                <h4>years of proffesional expirience</h4>
-            </div>
-            <div class="text_zen_cottages">
-                <p>ZEN Cottages were founded by architect Andrew Shimmer and his wife Carol. They wanted to create
-                    classically-designed, efficient, and prefabricated structures that could be easily moved,
-                    contracted,
-                    expanded, and sold while maintaining both integrity and aesthetics.
-                </p>
-                <p>The company respects the natural environment and deeply cares about it. Therefore, we do our best to
-                    use
-                    building constructions and delivery systems that are flexible and have minimal impact on the land
-                    they occupy.
-                </p>
-            </div>
-        </section>
-        <section class="Block_two">
-            <div class="Consulting">
-                <img src="img/sladder.png" width="250" alt="ladder">
-                <a href="#">Подробнее</a>
-                <img src="img/arrow1.svg" width="30" alt="arrow">
-                <h3>Consulting</h3>
-                <p>Do your requirements truly match your needs and your budget? The pre-construction planning phase
-                    helps you
-                    figure this out and come up with adjustments if necessary, making your dreams and goals achievable.
-                </p>
-            </div>
-            <div class="Restoration">
-                <img src="img/srestoration.png" width="250" alt="Restoration">
-                <a href="#">Подробнее</a>
-                <img src="img/arrow1.svg" width="30" alt="arrow">
-                <h3>Restoration</h3>
-                <p>Any home could suffer from things affecting its integrity or aesthetics. Lucky for you, we can help
-                    deal with
-                    those things as well. Contact us for professional restoration services. Alice was beginning to get.
-                </p>
-            </div>
-            <div class="nhconstruct">
-                <img src="img/shouse.png" width="250" alt="home,house">
-                <a href="#">Подробнее</a>
-                <img src="img/arrow1.svg" width="30" alt="arrow">
-                <h3>New home construction</h3>
-                <p>Whether you need a home or a place to spend your vacations in, we can help you. We offer diverse and
-                    flexible
-                    solutions along with professional suggestions to meet and then exceed all your expectations.</p>
-            </div>
-            <div class="Interior_design">
-                <img src="img/sfurniture.png" width="250" alt="Interior,furniture">
-                <a href="#">Подробнее</a>
-                <img src="img/arrow1.svg" width="30" alt="arrow">
-                <h3>Interior design</h3>
-                <p>A new home is always a new lifestyle. Our designers will offer you beautiful and ergonomic solutions
-                    to fill
-                    your new home with comfort and coziness. We will show you a design project and supervise all the
-                    works.</p>
-            </div>
-        </section>
-        <section class="Block_three">
-            <div class="section_three">
-                <header class="inner_section_three">
-                    <h3>We've brought the construction of our cottages to perfection due to our great expertise. </h3>
-                   <div class="high-Q"> <h4>01. HIGH-QUALITY MATERIALS</h4>
-                    <p>All the materials we use are 100% safe for humans and are considered eco.</p>
-                    </div>
-                    <div class="hight-L">
-                    <h4>02. HIGH-LEVEL EXPERTS</h4>
-                    <p>Our team consists of designers, architects, and constructors with 5+ years of experience.</p>
-                        </div>
-                </header>
-            </div>
-        </section>
-        <!-- Irina Venzheha -->
-    </main>
-    <footer>
-
-    </footer>
-
+    </form>
+</footer>
 </body>
 
 </html>

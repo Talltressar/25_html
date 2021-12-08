@@ -1,0 +1,39 @@
+.header-nav{
+
+}
+.header-nav-logo,
+.header-bunner-h1 {
+    color:var(--main-color);
+    font-size: 3.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.header-nav-menu{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+}
+.header-nav-menu-item{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--main-color);
+}
+.header-nav-menu-item:hover{
+    font-weight: ;
+
+}
+@media (min-width 600px){
+    .header-nav > .container{
+        display: flex;
+    }
+}
+.header-nav-menu {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-bunner {
+    background-image: url(../img/fantasy-wallpaper-1366x768.jpg);
+    background-size: cover;
+
+}
